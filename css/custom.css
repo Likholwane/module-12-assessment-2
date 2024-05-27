@@ -1,74 +1,76 @@
-.carousel-caption{
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    left:0;
-    bottom: 0;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
+body{
+  font-family: "Rayleway" sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  background-color: pink;
+  text-align: center;
 }
 
-.team .col-lg-4 {
-    padding-top: 3rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
+#avatarImage img{
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 0 auto; /* Set left and right margins to auto */
 }
 
-.section-divider{ 
-    margin: 3rem 0;
+#avatarImage{
+  display: block; 
+  margin: 0 auto;
 }
 
-.footer-section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
+#avatarImag img{
+width: 300px;
+height: 300px;
+}
+#editForm{
+  text-align: center;
+  color: black;
 }
 
-@media (min-width: 1200px) {
-  .feature-heading {
-   margin-top: 10rem;
-  }
+.buttonSection{
+  width: 100%;
+  padding: 2rem;
+  margin-top: -65px;
 }
 
-@media (max-width: 540px) {
-    .carouselImg {
-        display: none;
-    }
+.roundButton{
+  border-radius: 50%;
+  background-color: skyblue;
+  border: 0;
+  width: 5rem;
+  height: 5rem;
+  font-size: 1rem;
+}
+
+#homeLink{
+  float: left;
+  margin-left: 150px;
+}
+
+#editContact{
+  float: left;
+  margin-left:335px;
+}
+
+#deleteContact{
+    float: left;
     
-    .team {
-        margin-top: 2rem;
-    }
+    margin-left: 300px;
+  }
+
+  .p{
+    color: black;
+    text-align: center;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 80vh; /* Set the container height to the full viewport height */
 }
 
-.carousel__button active{
-	width: 10px;
-	height: 10px;
-	display: inline-block;
-	background: gray;
-	border-radius: 50%;
+#table tr{
+  margin-left: 50px;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
